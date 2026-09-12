@@ -13,7 +13,7 @@
 				<input type="text" id="username" name="username" />
 				<br />
 				<label for="email">And your email?:</label>
-				<input type="email" id="email" name="email" />
+				<input type="email" id="email" name="email" required />
 				<br />
 				<label for="password"
 					>Shhh, don't tell anyone else your password:</label
@@ -24,7 +24,28 @@
 				<input type="radio" name="age" id="baby adult" value="18-25" />Kinda
 				adult (18-25)
 				<input type="radio" name="age" id="big boy" value="26-40" />Old Man
-				(26+)
+				(26+) <br /><br />
+				<label for="">Sneaky Inquiries:</label>
+				<select name="question" id="question">
+					<option value="q1">
+						When is your favorite time to Irish goodbye?
+					</option>
+					<option value="q2">Who is your favorite celebrity?</option>
+					<option value="q3">
+						Why are you in love with your former work crush?
+					</option>
+				</select>
+				<br /><br />
+				<label for="bio">what are you all about?</label><br />
+				<textarea
+					name="bio"
+					id="bio"
+					cols="30"
+					rows="10"
+					placeholder="don't hold back"
+				></textarea
+				><br />
+				<input type="submit" value="submit the form" />
 			</form>
 		</div>
 		<!-- <div>
